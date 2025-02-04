@@ -46,6 +46,7 @@ body {
 }
 
 .circle button {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,4 +59,18 @@ body {
 
 .circle button:focus {
   outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content img {
+  max-width: 100%;
 }
